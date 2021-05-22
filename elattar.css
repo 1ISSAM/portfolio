@@ -1,0 +1,394 @@
+* {
+	margin: 0;
+}
+html{
+	scroll-behavior:smooth; 
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+h3 {
+	font-family: 'Montserrat';
+	font-size: 40px;
+	color: #1a1a1a;
+	text-align: center;
+	text-shadow: 0 0 10px #dcdcdc;
+}
+
+/* issam's header   */
+.header {
+	position: fixed;
+	background: black;
+	padding: auto;
+	width: 100%;
+	z-index: 100
+}
+
+.header .container {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+}
+
+.header h1 {
+	color: white;
+	font-size: 40px;
+	font-family: 'Bangers';
+	margin-left: 5%;
+}
+
+.header ul {
+	padding: 20px;
+	margin-left: auto;
+	list-style: none;
+	text-align: center;
+}
+
+.header ul li {
+	display: inline-block;
+	margin: 0 10px;
+	font-family: 'Montserrat';
+}
+
+.header ul li a {
+	padding: 10px 0;
+	color: #fff;
+	font-size: 1rem;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 0.2s ease;
+}
+
+.header ul li a:hover {
+	color: 	#f5deb3	;
+}
+
+
+
+/* home section*/
+#sect {
+	width: 100%;
+	background-image: url(backt.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pere0 {
+	display: flex;
+	padding: 40px;
+	padding-top: 200px;
+	border-radius: 30px;
+}
+
+.issa0 {
+	height: 300px;
+	width: 300px;
+	border-radius: 30px;
+	margin-bottom: 160px;
+	margin-left: 100px;
+}
+
+.text p:nth-child(1) {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: 	#696969	;
+	font-size: 30px;
+}
+
+.text p:nth-child(2) {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #1a1a1a;
+	font-size: 4vw;
+	line-height: 1;
+}
+
+.text p:nth-child(3) {
+	font-family: 'Montserrat';
+	color: #a9a9a9;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.text p {
+	margin: 40px 0px 25px;
+	line-height: 0px;
+}
+
+.text button {
+	width: 130px;
+	height: 42px;
+	border-radius: 10px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+	margin: 0px 10px;
+}
+
+.text {
+	padding-right: 80px;
+	padding-left: 20px;
+}
+
+.download {
+	background-color: #0B0B0B;
+	color: #fff;
+	border: none;
+}
+
+.download a {
+	color: #fff;
+}
+
+button:active {
+	transform: scale(1.1);
+}
+
+/* about section*/
+.pere {
+	display: flex;
+	margin: 40px;
+	background-color: #dcdcdc;
+	border-radius: 30px;
+}
+
+.issa {
+	height: 300px;
+	width: 300px;
+	border-radius: 30px;
+}
+
+.txt {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	font-family: 'Montserrat';
+}
+
+.RS {
+	width: 150px;
+	height: 42px;
+	border-radius: 10px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+	margin: 0px 10px;
+}
+
+.RS a {
+	color: black;
+}
+
+/* education section */
+.flex {
+	display: flex;
+	flex-direction: column-reverse;
+	background-color: #dcdcdc;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	margin-left: 40px;
+	border-radius: 30px;
+}
+
+.iss {
+	height: 60px;
+	width: 300px;
+	border-radius: 30px;
+	margin-left: 20px;
+}
+
+/*Skills section*/
+h2 {
+	font-family: 'Arial Black';
+	font-style: italic;
+	font-size: 15px;
+}
+
+.skills {
+	width: 500px;
+	margin: 60px auto;
+	color: black;
+	font-style: italic;
+}
+
+.skills li {
+	margin: 20px 0;
+}
+
+.bar {
+	background: #353B48;
+	display: block;
+	height: 2px border:1px solid rgba(0, 0, 0, 0, 3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #f4a460;
+}
+
+.bar span {
+	height: 2px;
+	float: left;
+	background: #ff7f50
+}
+
+.Python {
+	width: 50%;
+}
+
+.Matlab {
+	width: 50%;
+}
+
+.Html-css {
+	width: 45%;
+}
+
+.Catia {
+	width: 70%;
+}
+
+.Arduino {
+	width: 80%;
+}
+
+.prog {
+	width: 60%;
+}
+
+.M-office {
+	width: 80%;
+}
+
+
+/* PROJECT SECTION*/
+
+
+
+.logo1 {
+	width: 180px;
+}
+
+.logo2 {
+	width: 300px;
+	height: 84.4px;
+}
+
+.logo3 {
+	width: 150px;
+	height: 84.4px;
+}
+
+.features {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.features .cont {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 20px;
+}
+
+.features .feat {
+	padding: 20px;
+	text-align: center;
+}
+
+.feat p {
+	line-height: 1.8;
+	color: black;
+	font-size: 15px;
+	font-family: 'Montserrat';
+	text-align: justify;
+}
+
+
+/*contact section*/
+.Contact .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Contact .pere {
+	justify-content: center;
+	width: 90%;
+	border-radius: 30px;
+	margin: 40px auto;
+}
+
+
+form {
+	margin: 20px;
+	padding: auto;
+}
+
+.input-f {
+	width: 400px;
+	height: 40px;
+	margin-top: 20px;
+	padding-left: 10px;
+	border: 1px solid #777;
+	border-radius: 14px;
+	outline: none;
+}
+
+.input-t {
+	height: 150px;
+	padding-top: 10px;
+}
+
+.btn {
+	border-radius: 20px;
+	color: white;
+	margin-top: 18px;
+	padding: 10px;
+	background-color: #cd853f;
+	font-size: 12px;
+	border: none;
+	cursor: pointer;
+	width: 40%;
+}
+
+/*FOOTER*/
+
+footer {
+	background: #111;
+	height: auto;
+	color: #fff;
+}
+
+.footer-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer-content h3 {
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+	color: #cd853f;
+	font-family:'Bangers'; 
+
+}
+
+.footer-content p {
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+	font-family: 'Montserrat'
+}
